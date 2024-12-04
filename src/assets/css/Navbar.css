@@ -1,0 +1,69 @@
+/* Navbar.css */
+.navbar-container {
+    display: flex;
+    justify-content: center; /* Centra la tabla horizontalmente. Cambia a "flex-start" para alinearla a la izquierda o "flex-end" para alinearla a la derecha */
+    align-items: center; /* Centra la tabla verticalmente. Cambia a "flex-start" para alinearla arriba o "flex-end" para alinearla abajo */
+    width: 70%; /* Ajusta el ancho de la tabla en relación con el contenedor. Cambia este valor para hacerla más grande o pequeña horizontalmente */
+    max-width: 11800px; /* Define un ancho máximo para la tabla. Cambia este valor para que la tabla no se expanda demasiado */
+    margin-top: 90px; /* Añade un margen superior para mover la tabla hacia abajo si es necesario */
+    margin-bottom: 20px; /* Añade un margen inferior para mover la tabla hacia arriba si es necesario */
+    margin-left: 534px; /* Añade margen izquierdo para desplazar la tabla hacia la derecha */
+    margin-right: 412px; /* Añade margen derecho para desplazar la tabla hacia la izquierda */
+}
+  
+.search-input {
+    width: 250px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 8px;
+}
+  
+.search-button {
+    background-color: #dc3545; /* color btn-danger */
+    color: white; /* color del texto */
+    border: none; /* elimina el borde */
+    padding: 8px 16px; /* espaciado interno */
+    border-radius: 5px; /* redondear esquinas */
+    cursor: pointer; /* cambiar cursor al pasar */
+    width: 80px;
+    height: 35px;
+    font-size: small;
+}
+  
+.search-button:hover {
+    background-color: #c82333; /* un tono más oscuro para el hover */
+}
+
+.navbar-container i {
+    font-size: 20px; /* Ajusta el tamaño del ícono */
+    margin: 0 5px; /* Espaciado horizontal entre íconos */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    color: #000; /* Color del ícono */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la tabla */
+    transition: color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+.navbar-container i:hover {
+    color: #c82333; /* Cambia el color al pasar por encima */
+    transform: scale(1.2); /* Aumenta el tamaño ligeramente */
+}
+
+.icons-group {
+    display: flex;
+    margin-right: 5px; /* Mueve todo el grupo hacia la izquierda */
+}
+
+.icons-group i {
+    margin-right: 8px; /* Espaciado entre íconos */
+}
+
+/* Nueva animación suave para iconos */
+.icons-group i {
+    transition: all 0.3s ease; /* Suaviza cualquier cambio en los estilos */
+}
+
+.icons-group i:active {
+    transform: scale(0.9); /* Reduce el tamaño temporalmente al hacer clic */
+}

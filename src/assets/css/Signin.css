@@ -1,0 +1,32 @@
+.text-bg-dark {
+    background-image: url('../images/2.jpg');
+    background-size: 100% 202vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.443); /* Fondo semitransparente */
+    padding: 2rem;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    max-width: 400px; /* Tamaño máximo del formulario */
+  }
+  
+  .form-signin .form-floating label {
+    color: #333; /* Color del texto para mejor visibilidad */
+  }
+  
+  .form-signin input::placeholder {
+    color: #555; /* Color para el placeholder */
+    opacity: 1;
+  }
+  .form-check-label {
+    color: black; /* Cambia el color del texto a negro */
+  }
+
+ 

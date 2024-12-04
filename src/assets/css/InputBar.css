@@ -1,0 +1,47 @@
+.input-bar-container {
+    position: fixed; /* Fija el elemento en la pantalla */
+    top: 50%; /* Ubicación vertical centrada */
+    left: 50%; /* Ubicación horizontal centrada */
+    transform: translate(-50%, -50%); /* Ajusta el punto de origen al centro */
+    background-color: #ffffff; /* Fondo blanco para resaltar */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    border-radius: 10px; /* Bordes redondeados */
+    z-index: 1000; /* Colócalo por encima de otros elementos */
+    width: 400px; /* Ancho ajustado */
+    max-width: 90%; /* Evita que sea demasiado ancho en pantallas pequeñas */
+  }
+  
+  .input-group {
+    margin-bottom: 15px; /* Espaciado entre campos */
+  }
+  
+  .input-group label {
+    display: block; /* Coloca el texto del label en una nueva línea */
+    margin-bottom: 5px; /* Espacio entre el label y el input */
+    font-weight: bold; /* Destaca el texto del label */
+  }
+  
+  .input-group input {
+    width: 100%; /* Ajusta el input al ancho del contenedor */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente legible */
+  }
+  
+  button {
+    width: 100%; /* El botón ocupa todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    background-color: #d53c3c;
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  }
+  
+  button:hover {
+    background-color: #c00707;
+  }
+  

@@ -1,0 +1,86 @@
+/* Ajustes en el contenedor de la tabla */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ajustado para ocupar todo el ancho disponible */
+    padding: 40px;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0; /* Agregado margen inferior para separar la tabla del footer */
+}
+
+/* Ajustes en la tabla */
+.table {
+    width: 120%;
+    position: relative; /* Necesario para aplicar el 'top' */
+    top: -60px; /* Mueve la tabla 50px hacia arriba */
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-left: 170px;
+    margin-right: -20px;
+}
+.selected-row {
+    background-color: #f0f8ff;
+  }  
+
+/* Resto del estilo para la tabla se mantiene igual */
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.table th {
+    background-color: #db4646;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b93535;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+.table td {
+    background-color: #ffffff;
+}
+
+.selected-row {
+    background-color: #e71212; /* Cambia este color según tus necesidades */
+  }
+
+/* Ajuste de ancho de columnas */
+.table th:nth-child(1), .table td:nth-child(1) {
+    width: 10%;
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+    width: 15%;
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+    width: 25%;
+}
+
+.table th:nth-child(4), .table td:nth-child(4) {
+    width: 30%;
+}
+
+.table th:nth-child(5), .table td:nth-child(5) {
+    width: 20%;
+}

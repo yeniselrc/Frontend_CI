@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-image: url('../images/5.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* Alinea los elementos para distribuirlos */
+  padding: 0 0rem;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 62, 80, 0); /* Ajusta el color y la opacidad */
+  z-index: 1;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+  display: flex; /* Mantiene la disposición de los elementos */
+  width: 100%;
+  justify-content: space-between; /* Separa el logo de los botones */
+  align-items: center;
+}
+.header .logo {
+  border-radius: 50%; /* logo circular */
+  object-fit: cover; /* Ajusta la imagen correctamente dentro del contenedor */
+}
+
